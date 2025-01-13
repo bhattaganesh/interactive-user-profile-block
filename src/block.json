@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "interactive-user-profile-block/closeable-message",
+  "title": "Closeable Message Block",
+  "description": "A Gutenberg block with a closeable message.",
+  "category": "common",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "default": "This is a closeable message."
+    },
+    "customClass": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+
