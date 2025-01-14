@@ -12,6 +12,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Register block
 function closeable_message_block_register() {
-    register_block_type( __DIR__ . '/build' );
+    $blocks = array(
+        'closeable-message',
+        'price-card',
+        'user-profile',
+    );
+
+    foreach ( $blocks as $block ) {
+        register_block_type( __DIR__ . '/build/blocks/' . $block );
+    }
+
 }
 add_action( 'init', 'closeable_message_block_register' );

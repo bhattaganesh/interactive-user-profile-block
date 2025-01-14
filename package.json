@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A closeable message block plugin.",
   "license": "GPL-2.0-or-later",
-  "main": "build/index.js",
+  "main": "build/blocks/index.js",
   "scripts": {
     "build": "wp-scripts build",
     "format": "wp-scripts format",
