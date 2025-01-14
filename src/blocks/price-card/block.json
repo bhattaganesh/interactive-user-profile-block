@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "interactive-user-profile-block/price-card",
+  "title": "Price Card Block",
+  "description": "A Gutenberg block for displaying a price card with variants.",
+  "category": "design",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Product Title"
+    },
+    "description": {
+      "type": "string",
+      "default": "Product Description"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "variantPrices": {
+      "type": "object",
+      "default": {
+        "small": 0,
+        "medium": 0,
+        "large": 0
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

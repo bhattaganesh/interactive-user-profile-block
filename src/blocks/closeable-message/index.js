@@ -30,7 +30,7 @@ registerBlockType(metadata, {
     const { message, customClass } = attributes;
 
     const blockProps = useBlockProps({
-      className: customClass || "",
+      className: `closeable-message-editor ${customClass || ""}`.trim(),
     });
 
     return (
@@ -46,7 +46,7 @@ registerBlockType(metadata, {
 
         {/* Sidebar Controls */}
         <InspectorControls>
-          <PanelBody title="Block Settings">
+          <PanelBody title="Settings">
             <TextControl
               label="Custom Class"
               value={customClass}
@@ -56,7 +56,7 @@ registerBlockType(metadata, {
         </InspectorControls>
 
         {/* Block Content */}
-        <div {...blockProps} className="closeable-message-editor">
+        <div {...blockProps}>
           <span className="icon">📢</span>
           <RichText
             tagName="p"

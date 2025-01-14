@@ -1,0 +1,36 @@
+.price-card-block {
+    border: 1px dashed #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.price-card-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    opacity: 0.8;
+}
+
+.price-card-block h2 {
+    font-size: 1.25em;
+    margin: 8px 0;
+    color: #333;
+}
+
+.price-card-block p {
+    color: #666;
+    margin: 8px 0 16px;
+}
+
+.price-card-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-card-block ul li {
+    margin: 4px 0;
+    font-style: italic;
+}
