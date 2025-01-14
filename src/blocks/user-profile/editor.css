@@ -1,0 +1,101 @@
+  .interactive-profile-block .profile-picture {
+    margin-bottom: 16px;
+  }
+  
+  .interactive-profile-block .profile-picture img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .interactive-profile-block .social-icons {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .interactive-profile-block .social-icons .icon {
+    width: 24px;
+    height: 24px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .interactive-profile-block .social-icons .icon:hover {
+    color: #fff;
+  }
+  
+  .interactive-profile-block .social-icons .icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .interactive-profile-block .social-icons .icon.facebook:hover {
+    background-color: #2d4373; 
+  }
+  
+  .interactive-profile-block .social-icons .icon.instagram {
+    background: radial-gradient(circle at 30% 30%, #fdf497 0%, #fd5949 40%, #d6249f 60%, #285aeb 100%);
+  }
+  
+  .interactive-profile-block .social-icons .icon.instagram:hover {
+    background: radial-gradient(circle at 30% 30%, #d6249f 0%, #fd5949 40%, #fdf497 60%, #285aeb 100%);
+  }
+  
+  .interactive-profile-block .social-icons .icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .interactive-profile-block .social-icons .icon.twitter:hover {
+    background-color: #0d8ecf; 
+  }
+  
+  .interactive-profile-block .social-icons .icon.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .interactive-profile-block .social-icons .icon.linkedin:hover {
+    background-color: #005c8e; 
+  }
+  
+  .interactive-profile-block .social-icons .icon.github {
+    background-color: #333;
+  }
+  
+  .interactive-profile-block .social-icons .icon.github:hover {
+    background-color: #444; 
+  }
+  
+  .interactive-profile-block .social-icons .icon.discord {
+    background-color: #7289da;
+  }
+  
+  .interactive-profile-block .social-icons .icon.discord:hover {
+    background-color: #5b6e98;
+  }
+  
+  .interactive-profile-block .social-icons .icon.steam {
+    background-color: #171a21;
+  }
+  
+  .interactive-profile-block .social-icons .icon.steam:hover {
+    background-color: #2c2f38;
+  }
+  
+  .interactive-profile-block .social-icons .icon.pinterest {
+    background-color: #bd081c;
+  }
+  
+  .interactive-profile-block .social-icons .icon.pinterest:hover {
+    background-color: #8b051d;
+  }
+  
+  

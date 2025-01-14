@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "interactive-user-profile-block/user-profile",
+  "title": "Interactive User Profile Block",
+  "description": "An interactive Gutenberg block for displaying a user profile with social media links.",
+  "category": "design",
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "socialLinks": {
+      "type": "object",
+      "default": {
+        "instagram": "",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "github": "",
+        "discord": "",
+        "steam": "",
+        "pinterest": ""
+      }
+    }
+  },
+  "supports": {
+    "html": false,
+    "customClassName": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
