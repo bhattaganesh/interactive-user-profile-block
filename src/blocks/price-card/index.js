@@ -34,6 +34,9 @@ registerBlockType(metadata, {
   edit: ({ attributes, setAttributes }) => {
     const { title, description, imageUrl, variantPrices } = attributes;
 
+    const blockProps = useBlockProps.save({
+      className: "price-card-block",
+    });
     return (
       <>
         <InspectorControls>
@@ -92,8 +95,8 @@ registerBlockType(metadata, {
           </PanelBody>
         </InspectorControls>
 
-        <div {...useBlockProps()}>
-          {imageUrl && <img src={imageUrl} alt={title} height={200} />}
+        <div {...blockProps}>
+          {imageUrl && <img src={imageUrl} alt={title} />}
           <h2>{title}</h2>
           <p>{description}</p>
           <ul>
