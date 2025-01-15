@@ -1,6 +1,5 @@
 import { registerBlockType } from "@wordpress/blocks";
 import Edit from "./edit";
-import metadata from "./block.json";
 
 registerBlockType("interactive-user-profile-block/first-dynamic-block", {
   title: "First Dynamic Block",
